@@ -1,0 +1,201 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .navigation{
+    width: 73%;
+    padding: 1%;
+    text-align: right;
+  }
+  
+  .ul{
+    width: 10%;
+    text-align: right;
+  }
+
+  img.logo{
+    text-align: left;
+  }
+
+.heroImg{
+  height: 600px;
+  width: 600px;
+  text-align: right;
+  margin: 0;
+}
+
+.hiIam{
+  text-align: left;
+  font-family: 'spectral'; font-weight: bold; font-size: 35px;
+}
+
+.heroSection{
+  background-color:  #EEDDFF;
+}
+
+.herotext{
+  text-align: left;
+
+}
+
+.ViewAllProj{
+  margin: 0;
+  position: relative;
+  left: 300%;
+  right: 300%;
+  margin-top: 15%;
+  border-radius: 4px;
+  border: none;
+  background-color:#bb86f0;
+  font-family: 'darker grotesque';
+  font-size: 18px;
+  padding: 10px 24px;
+  transition-duration: 0.4s;
+
+}
+
+.ViewAllProj:hover{
+  background-color: rgb(245, 190, 88); /* orange */
+  color: white;
+}
+
+.navbar-brand{
+  font-family: 'spectral'; 
+  font-size: 500px;
+  color: black;
+}
+
+.nav-item.nav-link{
+  font-family: 'Darker Grotesque'; 
+  font-size: 17px;
+  color: black;
+  
+}
+
+.TakeMeThere {
+  margin: 0;
+  position: relative;
+  left: 10%;
+  background-color: #C68DFF; /* Purple */
+  border: none;
+  color: black;
+  padding: 14px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  padding: 5%;
+  text-align: center;
+  padding: 10px 24px;
+  transition-duration: 0.4s;
+  border-radius: 4px;
+}
+
+.TakeMeThere:hover{
+  background-color: rgb(245, 190, 88);
+  color: white;
+}
+
+
+/*Section UI*/
+
+.card-text {
+  font-family: 'darker grotesque'; font-size: 20px;
+}
+
+.card-title{
+  width: 500px;
+  margin: 0 auto;
+  font-family: 'spectral bold'; font-size: 22px; font-weight: bold;
+}
+
+
+.mySkills{
+  width: 100%;
+  display: inline-block;
+  background-color: white;
+  font-family: 'spectral';
+  font-weight: bold;
+}
+
+.myWork{
+  background-color: #EEDDFF;
+  font-family: 'spectral';
+  font-weight: bold;
+  padding: 2%;
+}
+
+.btn.btn-primary{
+  background-color: #C68DFF;
+  border-color: #C68DFF;
+  font-family: 'darker grotesque';
+  color: black;
+}
+
+/*Footer*/
+
+footer{
+  background-color: #EEDDFF;
+  padding-left: 40%;
+  height: 100px;
+}
+
+.footer.ul{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.footer.ul.li{
+  padding-left: 40%;
+}
+
+
+/* Grid CSS */
+
+#heroGrid {
+  margin: 0px 5%;
+  display: grid;
+  min-height: 500px;
+  height: 70vh;
+  grid-template-rows: 75% 25%;
+  grid-template-columns: 75% 25%;
+  grid-template-areas:
+  "myWork mySkills";
+}
+
+#mySkills {
+  grid-area: mySkills;
+  background-image: url("file:///Users/itatimunguia/Documents/UX_UI_HW_18./…UI_HW_18/UX_UI_HW_17/images/placeholder-image.png");
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+#myWork{
+  grid-area: myWork;
+  background-image: url("file:///Users/itatimunguia/Documents/UX_UI_HW_18./…UI_HW_18/UX_UI_HW_17/images/placeholder-image.png");
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+#header {
+  background-color: rgb(255, 255, 255);
+  border-bottom: 5px solid #FF6200;
+  position: absolute;
+  right: -50px;
+  top: 100px;
+  padding: 25px;
+  max-width: 550px;
+  z-index: 100;
+}
+
+.heroGridArea {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  position: relative;
+border: #EEDDFF;}
+
+
